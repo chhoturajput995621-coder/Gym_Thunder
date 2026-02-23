@@ -148,7 +148,7 @@ nav{
     background: linear-gradient(90deg,#FFF8E7,#FFD77A,#E6A520);
     background-size: 500% 500%;
     animation: gradientColor 5s ease infinite;
-
+    border-radius: 10px;
     position: sticky;
     list-style-type: none;
     display: flex;
