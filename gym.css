@@ -82,14 +82,32 @@ body{
    }
 }
 
+/* Diet plan */
 .container{
   background: linear-gradient(90deg,#ff0055,#ffcc00,#00ff99);
   background-size: 300% 300%;
   animation: gradientAnimation 5s ease infinite;
 
    padding: 20px;
-   width: 400px;
+   width: 90%;
    border-radius: 30px;
+   box-sizing: border-box;
+}
+/* tablet */
+@media (min-width:768px) {
+   .container{
+      width: 70px;
+      padding: 25px;
+      border-radius: 25px;
+   }
+}
+/* destop */
+@media (min-width:1024px) {
+   .container{
+      width: 38%;
+      padding: 30px;
+      border-radius: 30px;
+   }
 }
 
 @keyframes gradientAnimation{
