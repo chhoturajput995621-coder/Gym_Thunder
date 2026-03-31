@@ -263,16 +263,13 @@ nav{
    margin-top: 20px;
    gap: 10px;
    justify-content: space-evenly;
-   animation: animate-image 10s linear infinite;
+   animation: animate-image 15s linear infinite;
    
 }
 
 @keyframes animate-image {
-   0%{
-      transform: translateX(0%);
-   }
-   100%{
-      transform: translateX(-50%);
+   to{
+      transform: translateX(calc(-5 * (16rem - 1rem)));
    }
    
 } 
